@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background: rgb(34,193,195);
+    background: linear-gradient(16deg, rgba(34,193,195,1) 25%, rgba(45,253,146,1) 75%);
+    
+}
+
+.card{
+    min-height: 92.1vh !important;
+}
+.option{
+    background-color:transparent;
+    color:black;
+    }.option:hover{
+        background-color: rgba(34,193,195,1) ;
+        color:white ;
+        
+        }
+        .pointer{
+            pointer-events: none;
+        }
+        .nextbtn{
+            background-color: rgba(34,193,195,1);
+            color: white;
+            padding: 5px 20px;
+            border-radius: 4px;
+            border: none;
+            font-size: 20px;
+            display: none;
+            
+        }
+.Restartbtn{
+    background-color:rgba(34,193,195,1);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+}
+.success{
+    background-color: rgba(12, 223, 65, 0.548);
+}
+.danger{
+    background-color: rgba(255, 0, 0, 0.521); 
+}

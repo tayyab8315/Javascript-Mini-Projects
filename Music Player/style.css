@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    min-height: 100vh;
+    width: 100vw;
+
+    background-color: #ffe0e5;
+}
+.temprature{
+    display: inline-block;
+    margin-top: 0px;
+    color: rgb(231, 138, 196);
+    font-size: 40px;
+}
+.city{
+    
+    color: rgb(231, 138, 196);
+    font-size: 20px;
+}
+.hum{
+    color: white;
+    font-size: 30px;
+}
+.update{
+
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btns{
+    color: rgb(231, 138, 196);
+    background-color: white;
+    font-weight: 800;
+    font-size: 24px;
+    padding:12px 20px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 7px white ;
+}
+.btns:hover{
+    background-color: rgb(231, 138, 196);
+color: white;
+box-shadow: 2px 2px 7px rgb(231, 138, 196) ;
+}
+
+.btns2{
+    background-color: rgb(231, 138, 196);
+   color: white;
+    font-weight: 800;
+    font-size: 34px;
+    padding:0px 0 0 4px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 7px rgb(241, 121, 201) ;
+
+}
+.btns2:hover{
+    color: rgb(231, 138, 196);
+    background-color: white;
+    box-shadow: 2px 2px 7px white ;
+}
+
+#duration{
+    color: rgb(231, 138, 196);
+}
+#Weatherimg{
+    border: 10px solid white;
+    border-radius: 50%;
+
+}
+
+#progres{
+    appearance: none;
+    background-color:  rgb(231, 138, 196) !important ;
+height: 10px;
+}
+
+.progress-bar{
+    background-color:  rgb(231, 138, 196) !important ;
+}
+#progres::-webkit-slider-thumb{
+    appearance: none;
+width: 10px;
+    background-color:  rgb(231, 138, 196) ;
+    border: 7px solid white;
+    padding: 7px;
+    border-radius: 50%;
+
+   
+}
+@media (max-width:768px){
+    .temprature{
+     
+        font-size: 20px;
+    }
+    .city{
+    
+ 
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-fluid{
+
+    background: linear-gradient(45deg, rgb(17, 45, 107) 30%, rgb(87, 6, 87) 100%);
+    min-height: 100vh !important;
+    
+}
+
+
+ .play{
+    color:  rgb(255, 255, 255);
+    background-color:  rgb(230, 142, 11);
+    border: none;
+    padding: 13px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+
+ }
+ .morebtn{
+   color:  rgb(255, 255, 255);
+   background-color:  rgb(230, 142, 11);
+   border: none;
+   padding: 5px 7px;
+   border-radius: 3px;
+   font-size: 13px;
+
+}
+ .selectrr{
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 13px 20px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+ }
+/* .img-inner{
+   height: 232px;
+} */

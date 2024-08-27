@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container-fluid{
+
+    background: linear-gradient(45deg, rgb(63, 14, 92) 30%, rgb(97, 7, 59) 100%);
+    min-height: 100vh !important;
+    
+}
+
+.card-head{
+color: white !important;
+font-size: 40px;
+
+}
+
+
+ .Random{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color:  rgb(173, 33, 201);
+ }
+ .testts{
+    color:  rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.39);
+    border: none;
+    padding: 20px;
+    font-size: 19px;
+ }
+ .play{
+    color:  rgb(255, 255, 255);
+    background-color:  rgb(173, 33, 201);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+
+ }
+ .selectrr{
+    background-color: rgba(255, 255, 255, 0.39);
+    padding: 13px 20px;
+    width: 80%;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+ }
+ .selectrr .option{
+    background-color: rgba(255, 255, 255, 0.39); 
+ }

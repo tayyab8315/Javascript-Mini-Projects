@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background: rgb(2, 54, 88);
+    min-height: 100vh !important;
+    
+}
+
+.card-head{
+color: white !important;
+
+}
+
+ .nextbtn{
+            background-color: rgb(9, 158, 81);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            border: none;
+            font-size: 20px;
+
+            /* margin-left: -12px; */
+            margin-top: 30px;
+     
+ }
+ .Random{
+    border-bottom: 2px solid rgb(9, 158, 81);
+    color: rgb(9, 158, 81);
+ }
+.input{
+    font-size: 40px; 
+    border: none;
+
+}
+.input:active{
+    font-size: 40px; 
+    border: none;
+    
+}
+.copy{
+    font-size: 40px; 
+    color: rgb(9, 158, 81);
+    display: inline-block;
+    text-align: end;
+
+}

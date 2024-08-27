@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.801) 100%, rgba(2, 0, 36, 0.842) 100%),url('time.jpg');
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.temprature{
+    display: inline-block;
+    margin-top: 0px;
+    color: rgb(110, 224, 34);
+    /* font-size: 60px; */
+    padding-bottom: 40px;
+}
+
+.stopwatch{
+    color: rgb(110, 224, 34);
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.btns{
+    color: rgb(110, 224, 34);
+    background-color: white;
+    font-weight: 800;
+    font-size: 24px;
+    padding:12px 20px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 7px white ;
+}
+.btns:hover{
+    background-color: rgb(110, 224, 34);
+color: white;
+box-shadow: 2px 2px 7px  rgb(110, 224, 34);
+}
+
+.btns2{
+    background-color:  rgb(110, 224, 34);
+   color: white;
+    font-weight: 800;
+    font-size: 34px;
+    padding:0px 0 0 4px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    box-shadow: 2px 2px 7px  rgb(110, 224, 34);
+
+}
+.btns2:hover{
+    color: rgb(110, 224, 34);
+    background-color: white;
+    box-shadow: 2px 2px 7px white ;
+}
+
+
+

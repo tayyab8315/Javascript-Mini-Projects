@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  background: linear-gradient(45deg, rgb(4, 50, 71) 30%, rgb(97, 7, 59) 100%);
+  min-height: 100vh !important;
+}
+
+.Random {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgb(95, 189, 161);
+}
+
+.selectrr {
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 13px 20px;
+  width: 100%;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+}
+
+.items {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+#Secltbtn {
+  cursor: pointer;
+}
+
+.Secltbody {
+  display: none;
+}
+
+.icon {
+  transform: rotate(90deg);
+}
+
+.fruitimg {
+  height: 60px;
+  width: 60px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .selectrr {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+  .fruitimg {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .selectrr {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  .fruitimg {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+@media (max-width: 425px) {
+  .selectrr {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .fruitimg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .selectrr {
+    font-size: 12px;
+    padding: 5px 7px;
+  }
+  .fruitimg {
+    height: 35px;
+    width: 35px;
+  }
+}

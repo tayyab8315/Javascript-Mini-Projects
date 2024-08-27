@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: rgba(49, 133, 167, 0.685);
+    
+}
+.input-group {
+    border-radius: 36px ;
+}
+.btn-close{
+cursor: pointer !important;
+}
+.form-check-input:checked {
+    background-color: #dc3545 !important; /* Bootstrap danger color */
+    border-color: #dc3545 !important;
+}
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25) !important;
+}
+.btn-close {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+}
+.btn-close:hover {
+    background-color: #bb2d3b; /* Darker shade of danger color for hover */
+}
+.todo-text:hover {
+    color: #bb2d3b; /* Darker shade of danger color for hover */
+}
+.btn-close:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.5);
+}
+.ticked{
+    text-decoration: line-through;
+}
+.card{
+    min-height: 92.1vh !important;
+}
