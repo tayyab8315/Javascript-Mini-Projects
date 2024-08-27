@@ -10,6 +10,139 @@
 
     <title>Count-Down</title>
   </head>
+  <style>
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.contianer-fluid{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: brown; */
+    background: url(hero-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 10vh;
+}
+
+.col-3{
+    padding: 30px;
+    text-align: center;
+}
+label{
+    font-size: 30px;
+}
+.timer{
+    /* font-size: 40px; */
+    border: none;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    font-size: 100px !important;  /* Adjust the font size as needed */
+    width: 230px !important;
+    color: aliceblue;
+    /* padding: 20px; */
+
+}
+.dealtext{
+    text-align: center;
+    font-size: 70px;
+}
+.endTime{
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width:992px) {
+    .timer{
+ 
+        height: 180px;
+        font-size: 70px !important; 
+        width: 170px !important;
+
+    
+    }
+}
+@media (max-width:767px) {
+    .timer{
+ 
+        height: 140px;
+        font-size: 60px !important; 
+        width: 130px !important;
+
+    
+    }
+    .dealtext{
+        font-size: 55px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:576px) {
+    .timer{
+ 
+        height: 120px;
+        font-size: 50px !important; 
+        width: 110px !important;
+
+    
+    }
+    .dealtext{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .endTime{
+        font-size: 25px;
+    }
+    label{
+        font-size: 25px;
+    }
+}
+@media (max-width:460px) {
+    .timer{
+ 
+        height: 100px;
+        font-size: 40px !important; 
+        width: 90px !important;
+
+    
+    }
+    .dealtext{
+        font-size: 35px;
+        margin-top: 100px;
+    }
+    .endTime{
+        font-size: 19px;
+    }
+    label{
+        font-size: 19px;
+    }
+}
+@media (max-width:460px) {
+    .timer{
+ 
+        height: 80px;
+        font-size: 30px !important; 
+        width: 70px !important;
+
+    
+    }
+    .dealtext{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    .endTime{
+        font-size: 15px;
+    }
+    label{
+        font-size: 15px;
+    }
+}
+  </style>
   <body>
 <div class="contianer-fluid">
     <div class="container">
